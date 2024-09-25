@@ -1,0 +1,54 @@
+.profile-card {
+  width: 1477px;
+  height: 644px;
+  border-radius: 34px;
+  background: #ffffff;
+  box-shadow: 0px 16px 31px 0px #00000003;
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.profile-card img {
+  width: 301px;
+  height: 301px;
+}
+
+.profile-card h2 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  text-align: center;
+}
+
+.profile-card button {
+  width: 218px;
+  height: 61px;
+  border-radius: 15px;
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #000;
+  color: #ffffff;
+}
+
+.profile-card a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-card {
+    width: 100%;
+    height: 100%;
+    padding: 40px
+  }
+}

@@ -1,0 +1,29 @@
+.main-content {
+  h1 {
+    font-family: Poppins;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 81px;
+    text-align: left;
+  }
+  p {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: left;
+    color: #000;
+  }
+}
+
+.taskcards {
+  display: flex;
+  gap: 32px;
+  margin: 92px 0 0 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 61px 0;
+}

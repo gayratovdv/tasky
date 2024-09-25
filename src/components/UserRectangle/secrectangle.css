@@ -1,0 +1,32 @@
+.sec-rectangle {
+  width: 647px;
+  height: 91px;
+  border-radius: 20px;
+  border: 1.43px solid #f1f1f1;
+  display: flex;
+  padding: 11px 32px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  span {
+    color: red;
+    font-size: 28px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  p {
+    font-family: Poppins;
+    font-size: 22.85px;
+    font-weight: 600;
+    line-height: 34.28px;
+    text-align: right;
+    color: #000000;
+  }
+}
+
+.rectangle__content {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
