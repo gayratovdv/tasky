@@ -12,14 +12,3 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
-
-.content {
-  margin-left: 300px;
-  padding: 20px;
-  background: #f9f9f9;
-  border-top-left-radius: 38px;
-}
-
-.main-content {
-  padding: 20px;
-}
