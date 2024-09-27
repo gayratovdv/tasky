@@ -13,6 +13,7 @@ const Sidebar = () => {
       </div>
       <ul className="sidebar__list">
         <li className={location.pathname === "/" ? "active" : ""}>
+          <i style={{margin: "0 10px 0 0"}} className="fa-solid fa-table"></i>
           <Link to="/">Dashboard</Link>
         </li>
         <li className={location.pathname === "/members" ? "active" : ""}>
