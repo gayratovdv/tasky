@@ -1,0 +1,25 @@
+.nav {
+  height: 120px;
+  background: #ffffff;
+  border-top-left-radius: 38px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 0 30px;
+}
+
+.navbar__logo {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.navbar__profile {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
