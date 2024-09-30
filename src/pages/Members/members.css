@@ -1,0 +1,82 @@
+.members__content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+   
+}
+
+.members__content--card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 25px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 45%;
+  height: 600px;
+}
+
+.members__content--card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.members__content--card-wrapper h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.members__content--card-wrapper p {
+  color: #666;
+}
+
+.friends-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.friend-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1.12px solid #f1f1f1;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.friend-info {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.friend-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.task-count {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.remove-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: red;
+}
+
+.remove-icon {
+  color: red;
+  font-weight: bold;
+}
