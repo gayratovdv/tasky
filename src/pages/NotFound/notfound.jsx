@@ -7,6 +7,9 @@ const NotFoundPage = () => {
     width: 100%;
     height: 100vh;
     background-image: url(https://miro.medium.com/v2/resize:fit:1400/1*DeBkx8vjbumpCO-ZkPE9Cw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
   `;
 
   const NotFoundButton = styled.button`
